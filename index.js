@@ -1,1 +1,1 @@
-module.exports = require('./lib/date');
+module.exports = require('./lib/meridian');
