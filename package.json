@@ -1,0 +1,8 @@
+{
+  "name": "meridian",
+  "version": "1.0.0",
+  "description": "date lib",
+  "main": "index.js",
+  "author": "Jexulie",
+  "license": "ISC"
+}
