@@ -1,8 +1,8 @@
 var Meridian = require('./index')
 
-d = Meridian.Days.getXDayEarlier('01.01.2018', 360);
-w = Meridian.Weeks.getNextWeek('01.01.2018');
-m = Meridian.Months.getNextMonth('12.12.2018');
-y = Meridian.Years.getNextYear('12.12.2011')
+// d = Meridian.Months.getXMonthLater('02.11.2018', 1);
+d = Meridian.Months.getXMonthEarlier('01.01.2018', 5)
 
-console.log(d.toLocaleString())
+// e = new Date('02.31.2018')
+
+console.log(`result ${d.toDateString()}`)
